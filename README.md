@@ -69,6 +69,7 @@ seasons and high latitudes warming faster than tropical regions.
 ---
 
 ## Repository Structure
+```
 NASA_GISS_Temperature_Analysis/
 
 ├── NASA_GISS_Temperature_Analysis.ipynb   # Full analysis notebook
@@ -82,6 +83,7 @@ NASA_GISS_Temperature_Analysis/
 ├── monthly_heatmap.png                    # Visualization 4
 
 └── README.md                              # This file
+```
 ---
 
 ## How to Run
