@@ -12,7 +12,7 @@
 
 ## Overview
 
-This project analyzes NASA's GISS Surface Temperature dataset — one of the most cited 
+This project analyzes NASA's GISS Surface Temperature dataset - one of the most cited 
 climate records in the world, maintained by NASA's Goddard Institute for Space Studies. 
 The dataset tracks global surface temperature anomalies relative to a 1951–1980 baseline, 
 covering 146 complete years from 1880 to 2025.
@@ -30,7 +30,7 @@ anomaly means cooler. The analysis covers four questions:
 ## Key Findings
 
 **Overall trend:** Global surface temperature has risen at +0.0832°C per decade since 
-1880, with an R² of 0.767 and a p-value of 2.35e-47 — statistically indistinguishable 
+1880, with an R² of 0.767 and a p-value of 2.35e-47 - statistically indistinguishable 
 from zero probability of occurring by chance.
 
 **Warmest years:** The 10 warmest years on record are all from 2015-2025. Not one year 
@@ -42,12 +42,12 @@ at -0.49°C being the coldest on record.
 
 **Accelerating warming:** Each decade since the 1980s has warmed faster than the one 
 before it. The 2020s (6 years of data) are already the warmest decade on record at 
-+1.065°C above baseline — a +0.257°C jump from the 2010s, the largest single-decade 
++1.065°C above baseline - a +0.257°C jump from the 2010s, the largest single-decade 
 acceleration in the record.
 
 **Seasonal patterns:** All 12 months have warmed between +0.684°C and +0.815°C since 
 1880-1980. Winter months (January-March) show slightly greater warming than summer 
-months, consistent with the well-documented pattern of polar amplification — cold 
+months, consistent with the well-documented pattern of polar amplification - cold 
 seasons and high latitudes warming faster than tropical regions.
 
 ---
@@ -108,7 +108,7 @@ Download the data CSV from the NASA GISS link above.
 - Temperature anomalies relative to 1951-1980 baseline
 - Retrieved: June 2026
 - 146 complete years (1880-2025) plus partial 2026 data
-- Missing values marked as *** in source file — handled via pandas cleaning
+- Missing values marked as *** in source file - handled via pandas cleaning
 - 2026 excluded from annual analysis as the year is incomplete
 
 ---
@@ -118,8 +118,8 @@ Download the data CSV from the NASA GISS link above.
 This project demonstrates end-to-end data analysis in Python including data cleaning 
 with pandas, linear regression with scipy, rolling averages with numpy, period 
 comparison analysis, and four distinct visualization types including a heatmap. 
-The dataset required real cleaning work — handling NASA's *** missing value markers 
-and non-standard number formatting — before any analysis was possible.
+The dataset required real cleaning work (handling NASA's *** missing value markers 
+and non-standard number formatting) before any analysis was possible.
 
 ---
 
